@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Wallet BD3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Log out</string>
+
+
+    <string-array name="stdent_names">
+        <item>Sabbir Ahmed</item>
+        <item>Mubarak Rony</item>
+        <item>Latiful Kabir</item>
+        <item>Riday Ahmed</item>
+        <item>Rifat Ahmed</item>
+        <item>Mikail Hosen</item>
+        <item>Rafil Khan</item>
+        <item>Md Mamun</item>
+        <item>Md Akash</item>
+        <item>Jubayed</item>
+        <item>Rahul</item>
+    </string-array>
+
+
+    <string-array name="spinner_title">
+        <item>Wallet</item>
+        <item>Belt</item>
+        <item>Shoe</item>
+        <item>Beg</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

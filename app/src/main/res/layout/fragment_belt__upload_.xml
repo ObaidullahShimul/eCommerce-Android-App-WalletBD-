@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".Belt_Upload_Fragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <TextView
+                    android:textAlignment="center"
+                    android:text="Belt Fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/beltImgUpId1"
+                        android:src="@drawable/upimg_bacground"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:id="@+id/beltImgUpId2"
+                        android:layout_marginStart="10dp"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/upimg_bacground"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <EditText
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:padding="8dp"
+                android:background="@drawable/input_outline"
+                android:id="@+id/beltCodeEditTextId"
+                android:hint="Belt Code"
+                android:textColorHint="#e76de7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:ems="10"
+                android:background="@drawable/input_outline"
+                android:hint="Belt Title"
+                android:id="@+id/beltTitleEditTextId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:ems="10"
+                android:inputType="number"
+                android:background="@drawable/input_outline"
+                android:hint="Belt Price"
+                android:id="@+id/beltPriceEditTextId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:ems="10"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/input_outline"
+                android:padding="8dp"
+                android:gravity="top|left"
+                android:hint="Belt description"
+                android:id="@+id/beltDesEditTextId"
+                android:lines="10"
+                android:scrollHorizontally="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:textColor="#fff"
+                android:background="@drawable/btn_effect"
+                android:layout_marginTop="10dp"
+                android:id="@+id/beltUploadBtnId"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>

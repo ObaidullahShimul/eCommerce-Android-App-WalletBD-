@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/userLoginPage"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Log In" />
+        <item
+            android:id="@+id/userRegistration"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Create Account" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_phone_in_talk_black_24dp"
+            android:title="Contact Us" />
+
+        <item
+            android:id="@+id/admin_portal"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Admin Portal" />
+    </group>
+
+    <item android:title="Follow Us">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_thumb_up_black_24dp"
+                android:title="fb.com/WalletBD" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_public_black_24dp"
+                android:title="www.walletbd.com" />
+        </menu>
+    </item>
+
+</menu>

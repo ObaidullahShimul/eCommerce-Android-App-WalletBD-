@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "406654887501",
+    "firebase_url": "https://walletbd-azan.firebaseio.com",
+    "project_id": "walletbd-azan",
+    "storage_bucket": "walletbd-azan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406654887501:android:3df821c9f7224847",
+        "android_client_info": {
+          "package_name": "www.shimul.com.walletbd3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406654887501-r996jjquehgki2nosurd23o7jnlfueft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.shimul.com.walletbd3",
+            "certificate_hash": "1537b058c12eac5fd6cb6f59ba4b415bfc00a226"
+          }
+        },
+        {
+          "client_id": "406654887501-ohp85vi8e25lgv8vanht48mm5e7rovqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcLz4chbTMVqKARpYABelN1OUH2BMxrIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406654887501-ohp85vi8e25lgv8vanht48mm5e7rovqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

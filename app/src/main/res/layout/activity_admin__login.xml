@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Login">
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@drawable/helplogin"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:background="@drawable/input_outline"
+            android:padding="12dp"
+            android:id="@+id/etEmployeeId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Employee Id"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_marginTop="8dp"
+            android:background="@drawable/input_outline"
+            android:padding="12dp"
+            android:id="@+id/etEmpoyeePass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:backgroundTint="#860f26"
+            android:background="@drawable/input_outline"
+            android:id="@+id/btnAdminLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in" />
+
+
+        <ProgressBar
+            android:layout_marginTop="50dp"
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+           />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
