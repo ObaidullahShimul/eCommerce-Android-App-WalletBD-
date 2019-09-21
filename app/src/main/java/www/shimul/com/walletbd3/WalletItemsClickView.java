@@ -1,9 +1,12 @@
 package www.shimul.com.walletbd3;
 
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -17,6 +20,7 @@ public class WalletItemsClickView extends AppCompatActivity {
     String Des,Title;
     String ImgDis,ImgDis3;
     //ScrollView scrollView;
+    Button orderButton;
 
 
 
@@ -33,6 +37,14 @@ public class WalletItemsClickView extends AppCompatActivity {
 
         };
 
+        orderButton=findViewById(R.id.orderBtnId);
+        orderButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(WalletItemsClickView.this,OrderPageActivity.class);
+                startActivity(intent);
+            }
+        });
         /*urlText=findViewById(R.id.urlId);
         titleText=findViewById(R.id.titleId);
         img=findViewById(R.id.imageD);

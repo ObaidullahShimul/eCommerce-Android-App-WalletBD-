@@ -27,7 +27,8 @@
         <activity android:name=".Admin_Task" />
         <activity android:name=".WalletItemsClickView" />
         <activity android:name=".UserLoginActivity" />
-        <activity android:name=".UserCreateAccount"></activity>
+        <activity android:name=".UserCreateAccount" />
+        <activity android:name=".OrderPageActivity"></activity>
     </application>
 
 </manifest>
